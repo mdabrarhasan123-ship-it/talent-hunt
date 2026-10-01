@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Talent Hunt 2026 — Dhaka College Photography Club</title>
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;800&family=Hind+Siliguri:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* Cyanotype palette: the blue-print process of early photography. Light = the print, dark = the darkroom. */
+:root{--bg:#e8eff2;--fg:#0a1c30;--mut:#4d6478;--card:#f7fafb;--ln:#0a1c3026;--ac:#0b5a9c;--on:#fff;--er:#c62d3a;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light dark}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#06101d;--fg:#e9f1f4;--mut:#8ea6b8;--card:#0c1a2c;--ln:#e9f1f42b;--ac:#7fd8ff;--on:#04121f;--er:#ff6b76}}
+:root[data-theme="dark"]{--bg:#06101d;--fg:#e9f1f4;--mut:#8ea6b8;--card:#0c1a2c;--ln:#e9f1f42b;--ac:#7fd8ff;--on:#04121f;--er:#ff6b76}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px)}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 1.05rem/1.65 'Hind Siliguri',system-ui,sans-serif;overflow-x:hidden}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;opacity:.07;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.8'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+h1,h2,h3,.dp{font-family:Unbounded,'Hind Siliguri',system-ui,sans-serif;line-height:1.05;margin:0}
+a{color:inherit}:focus-visible{outline:3px solid var(--ac);outline-offset:3px}
+#sp{position:fixed;top:env(safe-area-inset-top,0px);left:0;height:3px;width:100%;background:var(--ac);transform:scaleX(0);transform-origin:0;z-index:60}
+.hd{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;display:flex;align-items:center;gap:10px;padding:10px 18px;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--ln)}
+.br{margin-right:auto;text-decoration:none;font:800 1rem Unbounded,sans-serif}.br span{color:var(--mut);font-weight:500;margin-left:8px}
+#nv{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;background:var(--bg);padding:10px 18px 16px;border-bottom:1px solid var(--ln)}#nv.open{display:flex}
+#nv a{padding:12px 0;text-decoration:none;min-height:44px}#mb{background:none;border:1px solid var(--ln);color:inherit;border-radius:10px;width:44px;height:44px;font-size:1.3rem}
+@media(min-width:900px){#nv{display:flex;position:static;flex-direction:row;gap:26px;padding:0;border:0;background:none;margin:0 20px}#nv a{padding:0;min-height:0}#mb{display:none}.br{margin-right:0}.hd .go{margin-left:auto}}
+.bt{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:999px;border:1.5px solid var(--fg);background:none;color:var(--fg);font:800 .8rem Unbounded,sans-serif;text-decoration:none;cursor:pointer;transition:transform .2s,background .2s}
+.bt:hover{transform:translateY(-2px)}.bt.pr,.bt.sm{background:var(--ac);border-color:var(--ac);color:var(--on)}.bt.sm{min-height:44px;padding:0 16px;font-size:.7rem}.bt:disabled{opacity:.5}
+.w{max-width:1080px;margin:0 auto;padding:0 20px}section{padding:84px 0}
+.hero{position:relative;min-height:88svh;display:flex;align-items:center;overflow:hidden;padding:48px 0}
+.ap{position:absolute;right:-22vmin;top:50%;width:90vmin;height:90vmin;margin-top:-45vmin;border-radius:50%;opacity:.28;background:repeating-conic-gradient(var(--ac) 0 18deg,transparent 18deg 60deg);-webkit-mask:radial-gradient(circle,transparent 34%,#000 35%,#000 70%,transparent 71%);mask:radial-gradient(circle,transparent 34%,#000 35%,#000 70%,transparent 71%);animation:sp 60s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.fr{position:absolute;border:1.5px solid var(--ln);border-radius:6px;background:linear-gradient(135deg,color-mix(in srgb,var(--ac) 22%,transparent),transparent);animation:fl 9s ease-in-out infinite}
+.f1{width:90px;height:120px;right:12%;top:14%}.f2{width:140px;height:96px;right:30%;bottom:12%;animation-delay:-3s}.f3{width:70px;height:70px;left:6%;bottom:8%;animation-delay:-6s}
+@keyframes fl{50%{transform:translateY(-16px) rotate(2deg)}}
+.hero .w{position:relative;animation:in 1s both}@keyframes in{from{opacity:0;transform:translateY(24px)}}
+.org{display:flex;align-items:center;gap:12px;color:var(--mut);margin:0 0 22px}
+.lg{width:52px;height:52px;border:1.5px dashed var(--mut);border-radius:50%;display:grid;place-items:center;font:500 .55rem Unbounded;text-align:center;flex:none}
+h1{font-size:clamp(2.5rem,12.5vw,7.4rem);font-weight:800;letter-spacing:-.03em}h1 span{display:block;color:transparent;-webkit-text-stroke:2px var(--ac)}
+.tg{font:500 clamp(1.1rem,3.4vw,1.6rem) Unbounded;margin:22px 0 6px}.sb{color:var(--mut);margin:0 0 28px;max-width:46ch}
+.ac{display:flex;flex-wrap:wrap;gap:12px}.ct{display:flex;gap:30px;list-style:none;padding:0;margin:38px 0 0}.ct b{display:block;font:800 2rem Unbounded}.ct li{color:var(--mut);font-size:.9rem}
+.dl{margin:18px 0 0;color:var(--mut);font-size:.92rem}
+h2{font-size:clamp(1.6rem,5vw,2.8rem);margin-bottom:26px;letter-spacing:-.02em}
+.ab{display:grid;gap:34px}.ab .bn{font-size:1.15rem;max-width:62ch}@media(min-width:900px){.ab{grid-template-columns:1.3fr 1fr}}
+.ab .en{border-left:3px solid var(--ac);padding-left:20px;color:var(--mut)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}.chips button{min-height:44px;padding:0 18px;border-radius:999px;border:1px solid var(--ln);background:none;color:inherit;font:inherit;cursor:pointer}.chips button[aria-pressed=true]{background:var(--fg);color:var(--bg)}
+#cg{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr))}
+.cc{border:1px solid var(--ln);border-radius:18px;background:radial-gradient(circle at 100% 0,hsl(var(--h) 80% 55%/.2),transparent 55%),var(--card);transition:border-color .25s,transform .25s}.cc:hover{border-color:var(--ac);transform:translateY(-3px)}
+.cc>button{all:unset;box-sizing:border-box;display:block;width:100%;padding:22px;cursor:pointer;position:relative}.cc>button:focus-visible{outline:3px solid var(--ac);border-radius:18px}
+.cc .no{font:500 .8rem Unbounded;color:var(--mut)}.cc h3{font-size:1.25rem;margin:8px 0 10px}.cc p{margin:0;color:var(--mut);font-size:.98rem;padding-right:22px}.cc i{position:absolute;right:20px;top:20px;font:normal 1.5rem/1 Unbounded;transition:transform .25s}
+.cc>button[aria-expanded=true] i{transform:rotate(45deg)}.cc>div{padding:0 22px 22px}.cc ul{margin:0;padding-left:18px}.cc li{margin:3px 0}.tgs{display:flex;gap:8px;margin:0 0 10px}.tgs b{border:1px solid var(--ac);color:var(--ac);padding:2px 12px;border-radius:99px;font-size:.85rem}
+.hw{list-style:none;padding:0;margin:0;display:grid;gap:0;counter-reset:s}.hw li{display:grid;grid-template-columns:54px 1fr;gap:6px;padding:18px 0;border-top:1px solid var(--ln);counter-increment:s}
+.hw li::before{content:counter(s,decimal-leading-zero);font:500 .9rem Unbounded;color:var(--ac);padding-top:4px}.hw b{font:800 1.1rem Unbounded}.hw span{grid-column:2;color:var(--mut)}@media(min-width:900px){.hw{grid-template-columns:repeat(3,1fr);column-gap:30px}}
+.aw{border:1px solid var(--ac);border-radius:22px;padding:34px 26px;background:linear-gradient(120deg,color-mix(in srgb,var(--ac) 14%,transparent),transparent)}.aw p{margin:10px 0 0;max-width:60ch}
+details.q{border-top:1px solid var(--ln)}details.q:last-child{border-bottom:1px solid var(--ln)}details.q summary{cursor:pointer;padding:18px 30px 18px 0;font-weight:600;list-style:none;position:relative;min-height:48px}details.q summary::after{content:"+";position:absolute;right:4px;top:14px;font:1.4rem Unbounded}details.q[open] summary::after{content:"–"}details.q p{margin:0 0 18px;color:var(--mut);max-width:64ch}
+.note{color:var(--mut);font-size:.92rem;margin:-10px 0 20px}
+.fin{text-align:center;padding:110px 0}.fin p{font:500 clamp(1.1rem,4vw,1.9rem) Unbounded;margin:0 0 14px}.fin h2{font-size:clamp(2rem,9vw,5rem);margin:26px 0 8px}.fin small{display:block;color:var(--mut);margin-top:30px}
+footer{border-top:1px solid var(--ln);padding:40px 0 60px;color:var(--mut)}footer nav{display:flex;flex-wrap:wrap;gap:6px 22px;margin-top:14px}footer a{min-height:44px;display:inline-flex;align-items:center}
+dialog{width:min(660px,100%);max-height:94%;margin:auto;padding:0;border:1px solid var(--ln);border-radius:22px;background:var(--bg);color:var(--fg)}dialog[open]{display:flex;flex-direction:column}dialog::backdrop{background:#000b;backdrop-filter:blur(4px)}
+@media(max-width:640px){dialog{width:100%;height:100%;max-height:100%;border-radius:0;border:0}}
+.wh{padding:calc(14px + env(safe-area-inset-top,0px)) 20px 12px;border-bottom:1px solid var(--ln);display:flex;justify-content:space-between;align-items:center;gap:10px}.wh h2{font-size:1.05rem;margin:0}
+#pg{display:flex;gap:6px;list-style:none;margin:0;padding:12px 20px 0}#pg li{flex:1;font:500 .75rem Unbounded;color:var(--mut);border-top:3px solid var(--ln);padding-top:6px}#pg li.on{color:var(--fg);border-color:var(--ac)}#pg li.dn{border-color:var(--ac)}
+#wb{padding:20px;overflow-y:auto;flex:1}#wb h3{font-size:1.2rem;margin-bottom:14px}.wf{display:flex;gap:10px;justify-content:space-between;padding:14px 20px calc(14px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--ln)}
+.pv{font-size:.85rem;color:var(--mut);margin:0 0 16px}
+.f{margin:0 0 14px}.f label{display:block;font-weight:600;margin-bottom:4px}input,select,textarea{width:100%;min-height:46px;padding:10px 12px;border:1px solid var(--ln);border-radius:10px;background:var(--card);color:inherit;font:inherit}textarea{min-height:96px}
+input[type=file]{padding:20px 12px;border-style:dashed}[aria-invalid=true]{border-color:var(--er)}.er{color:var(--er);margin:4px 0 0;font-size:.9rem}.fn{font-size:.9rem;color:var(--mut);margin:4px 0 0}.th{max-height:90px;border-radius:8px;margin-top:6px}
+.ck{display:flex!important;gap:12px;align-items:center;padding:12px 14px;border:1px solid var(--ln);border-radius:12px;background:var(--card);cursor:pointer;margin:0 0 8px;min-height:48px;font-weight:400!important}.ck:has(input:checked){border-color:var(--ac);outline:1px solid var(--ac)}.ck input{width:22px;height:22px;min-height:0;accent-color:var(--ac);flex:none}
+.pn{border:1px solid var(--ln);border-radius:14px;padding:6px 16px 14px;margin-bottom:12px}.pn summary{cursor:pointer;font:800 .95rem Unbounded;padding:12px 0;min-height:44px}.pn h4{font:800 .95rem Unbounded;margin:12px 0 0}
+dl{margin:8px 0 0}dt{color:var(--mut);font-size:.85rem;margin-top:8px}dd{margin:0;overflow-wrap:anywhere}
+.pb{height:6px;background:var(--ln);border-radius:9px;margin-top:12px;overflow:hidden}.pb i{display:block;height:100%;width:0;background:var(--ac);transition:width .15s}
+.ok{text-align:center}.ok svg{width:84px;height:84px}.ok circle,.ok path{fill:none;stroke:var(--ac);stroke-width:4;stroke-linecap:round;stroke-dasharray:170;stroke-dashoffset:170;animation:dr .9s .1s forwards}.ok path{animation-delay:.6s;stroke-dasharray:50;stroke-dashoffset:50}@keyframes dr{to{stroke-dashoffset:0}}
+.id{font:800 1.4rem Unbounded;border:1.5px dashed var(--ac);border-radius:14px;padding:16px;margin:16px 0;overflow-wrap:anywhere}.ok dl{text-align:left}
+@media(prefers-reduced-motion:reduce){*,.ap{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+
+/* polish */
+body{background:radial-gradient(1000px 560px at 92% -8%,color-mix(in srgb,var(--ac) 15%,transparent),transparent 60%),var(--bg)}
+h1,h2,h3{text-wrap:balance}
+.hero::before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(70vmax 50vmax at 88% 8%,#1f6fb34d,transparent 62%),radial-gradient(40vmax 30vmax at 0% 100%,#ff2d3a12,transparent 70%)}
+.br{display:flex;align-items:center}
+img.lg{display:block;flex:none;width:var(--s,56px);height:var(--s,56px);border:0;border-radius:50%;object-fit:cover;box-shadow:0 0 0 1.5px var(--ln),0 8px 28px #1f6fb355}
+.br img.lg{--s:36px;margin-right:10px;box-shadow:0 0 0 1px var(--ln)}.org img.lg{--s:68px}
+.bt.pr,.bt.sm{box-shadow:0 10px 30px -12px var(--ac)}
+.cc{position:relative;overflow:hidden;border-radius:22px}
+.cc::after{content:"";position:absolute;right:-25%;bottom:-55%;width:75%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,hsl(var(--h) 85% 60%/.24),transparent 70%);transition:transform .5s;pointer-events:none}
+.cc:hover::after{transform:scale(1.35)}.cc:hover{box-shadow:0 22px 44px -26px var(--ac)}
+.ic,.ci{display:grid;place-items:center;color:var(--ac)}
+.ic{width:48px;height:48px;border-radius:15px;margin-bottom:16px;background:color-mix(in srgb,var(--ac) 14%,transparent)}
+.ic svg,.ci svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.cc .no{position:absolute;right:60px;top:24px}
+.hw{gap:12px}.hw li{border:1px solid var(--ln);border-radius:18px;padding:18px;background:var(--card)}
+.cg2{display:grid;gap:8px;grid-template-columns:repeat(auto-fill,minmax(210px,1fr))}.cg2 .ck{margin:0}
+dialog{border-radius:26px;box-shadow:0 30px 80px -20px #000a}dialog::backdrop{background:radial-gradient(circle at 50% 0,#0b3a6666,#000c)}
+.wh{background:linear-gradient(180deg,color-mix(in srgb,var(--ac) 10%,transparent),transparent)}
+#pg{gap:8px}#pg li{display:grid;place-items:center;height:34px;padding:0;border:1px solid var(--ln);border-radius:99px;transition:.25s}
+#pg li.on{background:var(--ac);border-color:var(--ac);color:var(--on)}#pg li.dn{border-color:var(--ac);color:var(--ac)}#pg li.dn::before{content:"✓ "}
+input,select,textarea{border-radius:12px;transition:border-color .2s,box-shadow .2s}
+input:focus,select:focus,textarea:focus{outline:0;border-color:var(--ac);box-shadow:0 0 0 4px color-mix(in srgb,var(--ac) 22%,transparent)}
+input[type=file]{border:1.5px dashed color-mix(in srgb,var(--ac) 60%,transparent);background:color-mix(in srgb,var(--ac) 6%,var(--card));cursor:pointer}
+input[type=file]:hover{background:color-mix(in srgb,var(--ac) 12%,var(--card))}
+input[type=file]::file-selector-button{margin-right:12px;border:0;border-radius:99px;padding:8px 16px;background:var(--ac);color:var(--on);font:600 .85rem 'Hind Siliguri',sans-serif;cursor:pointer}
+.pn{border-radius:18px;background:var(--card)}
+.id{background:linear-gradient(120deg,color-mix(in srgb,var(--ac) 18%,transparent),transparent)}
+.ok svg{filter:drop-shadow(0 0 14px color-mix(in srgb,var(--ac) 70%,transparent))}
+</style></head><body>
+<div id="sp"></div>
+<header class="hd"><a class="br" href="#top"><img class="lg" src="logo.png" alt="" width="34" height="34">TH26<span>DCPC</span></a>
+<nav id="nv" aria-label="Main"><a href="#top">Home</a><a href="#about">About</a><a href="#categories">Categories</a><a href="#how">How It Works</a><a href="#rules">Rules</a><a href="#faq">FAQ</a></nav>
+<button class="bt sm go">PARTICIPATE NOW</button><button id="mb" aria-label="Menu" aria-expanded="false" aria-controls="nv">☰</button></header>
+<main id="top">
+<section class="hero"><div class="ap" aria-hidden="true"></div><i class="fr f1" aria-hidden="true"></i><i class="fr f2" aria-hidden="true"></i><i class="fr f3" aria-hidden="true"></i>
+<div class="w"><div class="org"><img class="lg" src="logo.png" alt="Dhaka College Photography Club logo" width="68" height="68"><span>Dhaka College Photography Club presents</span></div>
+<h1>TALENT<br>HUNT<span>2026</span></h1>
+<p class="tg">Your Skill. Your Vision. Your Story.</p><p class="sb">A Creative Talent Discovery Event for HSC 28 Batch</p>
+<div class="ac"><a class="bt" href="#categories">EXPLORE CATEGORIES</a><button class="bt pr go">PARTICIPATE NOW →</button></div>
+<ul class="ct"><li><b data-n="9">0</b>Categories</li><li><b data-n="5">0</b>Steps to submit</li><li><b data-n="0">0</b>৳ entry fee</li></ul>
+<p class="dl">Submission deadline: <span class="cfg-dl"></span></p></div></section>
+
+<section id="about"><div class="w"><h2><h2 align="center"> DEAR DC28</h2><br><h2> Talent is everywhere.<br>We are creating a place for you to show it.</h2>
+<div class="ab"><div class="bn"><p>ঢাকা কলেজে নতুন একটা ব্যাচ আসার সঙ্গে সঙ্গে campus টাও যেন একটু বদলে যায়। নতুন মুখ, নতুন বন্ধু, নতুন গল্প... সবকিছু মিলিয়ে শুরু হয় জীবনের আরেকটা অধ্যায়।</p>
+<p>কারও gallery তে জমে আছে অসংখ্য ছবি। কারও laptop এ পড়ে আছে অসমাপ্ত design, video বা 3D project। কেউ গল্প লেখে, কেউ website বানায়, কেউ animation করে। আবার কেউ হয়তো এখনো জানেই না, নিজের কোন কাজটা সবচেয়ে ভালো।</p>
+<p>কারণ talent শুধু নিজের মধ্যে থাকলে হয় না সেটাকে দেখানোর একটা জায়গাও দরকার।</p><p><b>সেই জায়গা থেকেই শুরু হচ্ছে Talent Hunt 2026.</b></p></div>
+<p class="en">Talent Hunt 2026 is a creative talent discovery event organized by Dhaka College Photography Club for HSC 28 Batch students. Showcase your work in photography, filmmaking, graphic design, writing, motion design, UI/UX, generative art, 3D design and meme creation.</p></div></div></section>
+
+<section id="categories"><div class="w"><h2>Nine ways to be seen</h2><div class="chips" id="ch" role="group" aria-label="Filter categories"></div><div id="cg"></div></div></section>
+
+<section id="how"><div class="w"><h2>How it works</h2><ol class="hw" id="hw"></ol></div></section>
+
+<section><div class="w"><div class="aw"><h2>For the winners</h2><p>Winning participants may receive a <b>free Dhaka College Photography Club membership</b>. The award ceremony will be held at the HSC 28 DCPC Orientation Program.</p><p>Ceremony date: <span class="cfg-cd"></span></p></div></div></section>
+
+<section id="rules"><div class="w"><h2>Rules</h2><p class="note">Draft wording. DCPC will confirm the final rules, dates and file limits.</p><div id="rl"></div></div></section>
+<section id="faq"><div class="w"><h2>FAQ</h2><div id="fq"></div></div></section>
+
+<section class="fin"><div class="w"><p>So, HSC 28 —</p><p>Don't just keep creating.</p><p>Let people see what you can create.</p><h2>TALENT HUNT 2026</h2><p>Your Skill. Your Vision. Your Story.</p><button class="bt pr go" style="margin-top:20px">PARTICIPATE NOW →</button><small>Organized by Dhaka College Photography Club</small></div></section>
+</main>
+<footer><div class="w"><img class="lg" src="logo.png" alt="Dhaka College Photography Club logo" width="56" height="56" style="margin-bottom:14px"><b class="dp">TALENT HUNT 2026</b><br>Dhaka College Photography Club
+<nav aria-label="Footer"><a href="#" title="Placeholder: add official link">Instagram</a><a href="#" title="Placeholder: add official link">Facebook</a><a href="#" title="Placeholder">Contact</a><a href="#rules">Rules</a><a href="#" title="Placeholder">Privacy</a><a href="#" title="Placeholder">Terms</a></nav></div></footer>
+
+<dialog id="wz" aria-labelledby="wt"><div class="wh"><h2 id="wt">Participate in Talent Hunt 2026</h2><button class="bt sm" id="wx" style="background:none;color:inherit;border-color:var(--ln)" aria-label="Close">✕</button></div>
+<ol id="pg" aria-label="Progress"><li>01</li><li>02</li><li>03</li><li>04</li><li>05</li></ol><div id="wb"></div><div class="wf" id="wf"></div></dialog>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.39.7/dist/umd/supabase.js"></script>
+<script>
+const $=(s,e=document)=>e.querySelector(s),$$=(s,e=document)=>[...e.querySelectorAll(s)];
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+// Public keys: safe in the browser (access is limited by the database rules). Never put the service_role key here.
+const CFG={url:'https://rlazyoipfqjxiyohweqh.supabase.co',key:'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJsYXp5b2lwZnFqeGl5b2h3ZXFoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA4NDAyNDYsImV4cCI6MjEwNjQxNjI0Nn0.-nPp4u_B9yv21uYNm_tMgaUO6qiOnNzXgySHM3M5xHo',
+ logo:'', insta:'https://www.instagram.com/dcpc.club/', fb:'https://www.facebook.com/dcpc.official',
+ maxMB:50,                   // placeholder: keep equal to the bucket limit in Supabase
+ deadline:'To be announced',ceremony:'To be announced'};
+$$('.cfg-dl').forEach(e=>e.textContent=CFG.deadline);$$('.cfg-cd').forEach(e=>e.textContent=CFG.ceremony);
+
+const C=[
+{id:'photo',n:'Photography',g:'v',d:'Camera or Mobile. Tell your story in one frame or a whole series.',s:['Portrait Photography','Street Photography','Nature & Wildlife Photography','Photojournalism','Photo Story / Series']},
+{id:'film',n:'Short Film',g:'m',d:'Open theme. Fiction, documentary, experimental or any original idea. Suggested length 1–5 minutes.',s:['Fiction','Documentary','Experimental','Creative storytelling','Other original concept']},
+{id:'graphic',n:'Graphic Design',g:'v',d:'একটি idea কে visual form-এ কতটা সুন্দর ও কার্যকরভাবে প্রকাশ করতে পারো—এই segment-এ সেটিই দেখানোর সুযোগ।',s:['Poster Design','Product Design','Logo & Brand Identity','Social Media Creative','Illustration','Infographic Design','Typography']},
+{id:'write',n:'Content Writing',g:'w',d:'Scripts, stories and verse. Documentary scripts can focus on a national or social interest.',s:['Documentary Script','Creative Writing','Feature Writing','Copywriting','Microfiction','Poetry / Prose']},
+{id:'motion',n:'Motion Design',g:'m',d:'Make design move: graphics, animation, typography and logos.',s:['Motion Graphics','2D Animation','Kinetic Typography','Logo Animation','Short Animated Video']},
+{id:'ui',n:'UI/UX & Frontend Development',g:'d',d:'Design it, build it, or both. Share Figma links, prototypes or live sites.',s:['Landing Page','Website UI/UX','Mobile App UI/UX','Interactive Web Design','Frontend Development','Creative / Experimental Web']},
+{id:'gen',n:'Generative Art',g:'v',d:'AI tools welcome. We judge your concept, direction, selection and editing, not just how the output looks.',s:['Theme-Based Generative Art','AI-Assisted Visual Design','Generative Poster','Generative Illustration','AI Concept Art','Visual Storytelling']},
+{id:'3d',n:'3D Design',g:'v',d:'Model, sculpt and visualize in Blender, Maya, 3ds Max, Cinema 4D or other software.',s:['Architectural / Structural Design','Product Design','3D Modelling','3D Environment','3D Character Design','Product Visualization','3D Animation']},
+{id:'meme',n:'Meme',g:'v',d:'Original, college-appropriate humor about student life and relatable moments.',s:['Creative Humor','Situational Meme']}];
+const ic=d=>`<svg viewBox="0 0 24 24" aria-hidden="true">${d}</svg>`;
+const ICO={photo:ic('<rect x="3" y="7" width="18" height="13" rx="2"/><circle cx="12" cy="13.5" r="3.5"/><path d="M8 7l1.5-3h5L16 7"/>'),
+film:ic('<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 4v16M17 4v16M3 9h4M3 15h4M17 9h4M17 15h4"/>'),
+graphic:ic('<path d="M4 20l4-1 11-11-3-3L5 16z"/><path d="M14 6l3 3"/>'),
+write:ic('<path d="M6 3h9l4 4v14H6z"/><path d="M9 11h7M9 15h7"/>'),
+motion:ic('<circle cx="12" cy="12" r="9"/><path d="M10 8.5l5 3.5-5 3.5z"/>'),
+ui:ic('<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 14l-2 2 2 2M16 14l2 2-2 2"/>'),
+gen:ic('<path d="M12 3l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/>'),
+'3d':ic('<path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M12 12l8-4.5M12 12L4 7.5M12 12v9"/>'),
+meme:ic('<circle cx="12" cy="12" r="9"/><path d="M8 14c1 2 3 3 4 3s3-1 4-3M9 9.5h.01M15 9.5h.01"/>')};
+const G={all:'All',v:'Visual',m:'Moving image',w:'Written',d:'Digital'};
+const nm=id=>C.find(c=>c.id==id).n;
+function cards(f='all'){$('#ch').innerHTML=Object.entries(G).map(([k,v])=>`<button aria-pressed="${k==f}" data-f="${k}">${v}</button>`).join('');
+$('#cg').innerHTML=C.map((c,i)=>({c,i})).filter(({c})=>f=='all'||c.g==f).map(({c,i})=>`<article class="cc" style="--h:${i*40+190}"><button aria-expanded="false" aria-controls="x-${c.id}"><span class="ic">${ICO[c.id]}</span><span class="no">${String(i+1).padStart(2,'0')}</span><h3>${c.n}</h3><p>${c.d}</p><i aria-hidden="true">+</i></button><div id="x-${c.id}" hidden>${c.id=='photo'?'<p class="tgs"><b>Camera</b><b>Mobile</b></p>':''}<ul>${c.s.map(s=>`<li>${s}</li>`).join('')}</ul></div></article>`).join('')}
+cards();
+$('#ch').onclick=e=>{const b=e.target.closest('[data-f]');if(b)cards(b.dataset.f)};
+$('#cg').onclick=e=>{const b=e.target.closest('.cc>button');if(!b)return;const o=b.getAttribute('aria-expanded')=='true';b.setAttribute('aria-expanded',!o);b.nextElementSibling.hidden=o};
+$('#hw').innerHTML=[['Discover','Browse the nine categories.'],['Choose','Pick one category or several.'],['Create','Make or select your best work.'],['Upload','Attach files or share a link.'],['Submit','Review your entry and confirm.'],['Receive ID','Save your unique submission ID.']].map(([a,b])=>`<li><b>${a}</b><span>${b}</span></li>`).join('');
+const dt=(a,b)=>a.map(([q,t])=>`<details class="q"><summary>${q}</summary><p>${t}</p></details>`).join('');
+$('#rl').innerHTML=dt([['Eligibility','Open to Dhaka College HSC 28 batch students.'],['Originality','Submit your own work, or work properly credited to its creators.'],['Copyright','Only submit material you have the right to use.'],['Plagiarism','Copied or uncredited work will not be accepted.'],['AI disclosure','AI tools are allowed only in categories that permit them. Disclose the tool, prompt and any editing.'],['Submission deadline','Not announced yet. DCPC will publish it here.'],['File requirements','Allowed formats and size limits will be confirmed by DCPC.'],['Disqualification','Breaking the rules may lead to disqualification. DCPC makes the final decision.'],['Organizer rights','DCPC may update event details. Updates will be posted on this page.'],['Judging rules','Each category has its own criteria. Generative Art is judged on concept, direction, selection and editing, not output alone.']]);
+$('#fq').innerHTML=dt([['Can I participate in multiple categories?','Yes.'],['Is participation free?','Yes.'],['Do I need professional experience?','No.'],['Can beginners participate?','Yes.'],['Can I use AI?','Only in categories where AI/generative tools are permitted.'],['Can I submit previous work?','To be confirmed by the organizers.'],['How will I know my submission was received?','Your unique submission/participant ID will be shown after submission.']]);
+
+$('#mb').onclick=()=>{const o=$('#nv').classList.toggle('open');$('#mb').setAttribute('aria-expanded',o)};
+$('#nv').onclick=e=>{if(e.target.closest('a')){$('#nv').classList.remove('open');$('#mb').setAttribute('aria-expanded',false)}};
+addEventListener('scroll',()=>{$('#sp').style.transform=`scaleX(${scrollY/Math.max(1,document.documentElement.scrollHeight-innerHeight)})`},{passive:true});
+$$('[data-n]').forEach(el=>{let n=+el.dataset.n,i=0;const t=setInterval(()=>{if(i>=n)return clearInterval(t);el.textContent=++i},180)});
+
+/* ---------- Participation flow (Phase 1/2 preview: nothing is saved yet) ---------- */
+const S={step:1,info:{},sel:[],d:{},fn:{},pv:{},err:{},ok:false,done:null};
+const INFO=[['name','Full name','text',1],['roll','College roll','text',1],['dept','Department / Group','text',1],['sec','Section','text',1],['phone','Phone number','tel',1],['email','Email','email',1],['social','Facebook / Instagram profile (optional)','url',0]];
+const sb=(c,l='Subcategory')=>['sub',l,'sel',1,C.find(x=>x.id==c).s],T=['title','Title','text',1],D=['desc','Description','area',1];
+/* requirement: 1 = required, 0 = optional, 2 = at least one of the "2" fields is needed */
+const FM={
+photo:[['div','Division','sel',1,['Camera','Mobile']],sb('photo'),['file','Photo(s): JPG, PNG, WEBP','file',1,'image/*'],T,D],
+film:[sb('film','Type'),['file','Video: MP4, MOV, WEBM','file',2,'video/*'],['url','Or a video link (YouTube / Drive / Vimeo)','url',2],T,['desc','Synopsis','area',1]],
+graphic:[sb('graphic'),['file','Design file: JPG, PNG, WEBP, PDF','file',1,'image/*,.pdf'],['title','Project title','text',1],['concept','Concept','area',1],['tools','Tools used','text',0]],
+write:[sb('write'),['file','Document: PDF or DOCX','file',2,'.pdf,.docx'],['text','Or paste your text','area',2],T],
+motion:[sb('motion'),['file','Video: MP4, MOV, WEBM','file',2,'video/*'],['url','Or a video link','url',2],T,D],
+ui:[sb('ui'),['fig','Figma / prototype link','url',2],['live','Live website URL','url',2],['file','Screenshots','file',2,'image/*'],['repo','GitHub / repository URL (if any)','url',0],['desc','Short explanation','area',1]],
+gen:[['file','Final artwork','file',1,'image/*'],sb('gen'),['tool','AI tool used','text',1],['prompt','Prompt','area',1],['concept','Concept description','area',1],['edit','Editing software (if any)','text',0]],
+'3d':[sb('3d'),['soft','3D software','sel',1,['Blender','Maya','3ds Max','Cinema 4D','Other']],['file','Image or video showcase','file',1,'image/*,video/*'],T,D],
+meme:[sb('meme'),['file','Meme image','file',1,'image/*'],['title','Title','text',0],['desc','Caption / context','area',0]]};
+const TY={text:'text',tel:'tel',email:'email',url:'url'};
+const get=(c,k)=>(c=='info'?S.info:S.d[c]||{})[k]||'';
+function fld(c,[k,l,t,r,o]){const id=`${c}-${k}`,e=S.err[c+'.'+k],v=get(c,k),a=`id="${id}" data-c="${c}" data-k="${k}" ${e?'aria-invalid="true" aria-describedby="e-'+id+'"':''}`;let x;
+if(t=='area')x=`<textarea ${a}>${esc(v)}</textarea>`;
+else if(t=='sel')x=`<select ${a}><option value="">Select…</option>${o.map(s=>`<option ${s==v?'selected':''}>${esc(s)}</option>`).join('')}</select>`;
+else if(t=='file')x=`<input type="file" accept="${o}" multiple ${a}><p class="fn" id="fn-${id}">${S.fn[c+'.'+k]?'✓ '+esc(S.fn[c+'.'+k]):'Drop files here or tap to choose'}</p>${S.pv[c+'.'+k]?`<img class="th" alt="Preview of selected file" src="${S.pv[c+'.'+k]}">`:''}`;
+else x=`<input type="${TY[t]}" value="${esc(v)}" ${a}>`;
+return `<div class="f"><label for="${id}">${l}${r==1?' *':''}</label>${x}${e?`<p class="er" role="alert" id="e-${id}">${e}</p>`:''}</div>`}
+function val(c,F,src){let ok=1;F.forEach(([k,l,t,r])=>{const v=src[k]||S.fn[c+'.'+k];let m='';
+if(r==1&&!v)m='This field is required.';else if(v&&t=='email'&&!/^\S+@\S+\.\S+$/.test(v))m='Enter a valid email address.';else if(v&&t=='tel'&&!/^[+\d][\d\s-]{6,}$/.test(v))m='Enter a valid phone number.';else if(v&&t=='url'&&!/^https?:\/\/\S+\.\S+/.test(v))m='Enter a full link starting with https://';
+S.err[c+'.'+k]=m;if(m)ok=0});
+const g=F.filter(f=>f[3]==2);if(g.length&&!g.some(f=>src[f[0]]||S.fn[c+'.'+f[0]])){g.forEach(f=>S.err[c+'.'+f[0]]='Add a file, a link or text in at least one of these fields.');ok=0}return ok}
+function render(){const m=$('#wb');$$('#pg li').forEach((li,i)=>li.className=i+1==S.step?'on':i+1<S.step?'dn':'');$('#wf').innerHTML='';let h='',f='';
+if(S.step==1)h=`<h3>Your details</h3><p class="pv">Tell us who you are, then choose the categories you want to enter.</p>`+INFO.map(i=>fld('info',i)).join('');
+if(S.step==2)h=`<h3>Choose categories</h3><p class="pv">Pick one or more. Each gets its own form.</p>`+'<div class="cg2">'+C.map(c=>`<label class="ck"><input type="checkbox" value="${c.id}" data-sel ${S.sel.includes(c.id)?'checked':''}><span class="ci">${ICO[c.id]}</span>${c.n}</label>`).join('')+'</div>'+(S.err.sel?`<p class="er" role="alert">${S.err.sel}</p>`:'');
+if(S.step==3)h=`<h3>Submit your work</h3>`+S.sel.map(c=>`<details class="pn" open><summary>${nm(c)}</summary>${FM[c].map(x=>fld(c,x)).join('')}</details>`).join('');
+if(S.step==4)h=`<h3>Review</h3><details class="pn" open><summary>Participant</summary><dl>${INFO.filter(i=>S.info[i[0]]).map(i=>`<dt>${i[1]}</dt><dd>${esc(S.info[i[0]])}</dd>`).join('')}</dl></details>`+S.sel.map(c=>`<details class="pn" open><summary>${nm(c)}</summary><dl>${FM[c].filter(x=>get(c,x[0])||S.fn[c+'.'+x[0]]).map(x=>`<dt>${x[1]}</dt><dd>${esc(get(c,x[0])||S.fn[c+'.'+x[0]])}</dd>`).join('')}</dl></details>`).join('')+`<label class="ck"><input type="checkbox" id="okc" ${S.ok?'checked':''}>I confirm that the submitted work is my own / properly credited work and that I have read the submission guidelines.</label>${S.err.ok?`<p class="er" role="alert">${S.err.ok}</p>`:''}<div class="pb" hidden><i id="pi"></i></div>`;
+if(S.step==5){const d=S.done;h=`<div class="ok"><svg viewBox="0 0 84 84" aria-hidden="true"><circle cx="42" cy="42" r="27"/><path d="M30 43l9 9 17-19"/></svg><h3>Submission Received!</h3><div class="id" id="sid">${d.id}</div><button class="bt" id="cp">Copy ID</button><dl><dt>Participant</dt><dd>${esc(S.info.name)}</dd><dt>Categories</dt><dd>${S.sel.map(nm).join(', ')}</dd><dt>Submitted</dt><dd>${d.t}</dd></dl><p class="pv">Save this ID. Keep it for any contact with the organizers.</p></div>`}
+m.innerHTML=h;
+f=(S.step>1&&S.step<5?'<button class="bt" data-a="back">BACK</button>':'<span></span>')+(S.step<4?'<button class="bt pr" data-a="next">CONTINUE</button>':S.step==4?'<button class="bt pr" data-a="sub" id="sb">SUBMIT TALENT</button>':'<button class="bt pr" data-a="close">DONE</button>');$('#wf').innerHTML=f;
+const bad=$('[aria-invalid],.er',m);if(bad){(bad.focus?bad:bad.previousElementSibling)?.focus?.()}else m.scrollTop=0}
+function next(){S.err={};if(S.step==1&&!val('info',INFO,S.info))return render();
+if(S.step==2&&!S.sel.length){S.err.sel='Choose at least one category.';return render()}
+if(S.step==3){let ok=1;S.sel.forEach(c=>{if(!val(c,FM[c],S.d[c]||(S.d[c]={})))ok=0});if(!ok)return render()}
+S.step++;render()}
+function sub(){if(!S.ok){S.err.ok='Please confirm to submit.';return render()}
+S.err={};$('#sb').disabled=true;$('.pb').hidden=false;let p=0;const t=setInterval(()=>{p+=12+Math.random()*15;$('#pi').style.width=Math.min(p,100)+'%';if(p>=100){clearInterval(t);S.done={id:'TH26-DCPC-'+String(Math.floor(Math.random()*99999)).padStart(5,'0'),t:new Date().toLocaleString()};S.step=5;render()}},180)}
+const wz=$('#wz');
+function open(){if(S.done)Object.assign(S,{step:1,info:{},sel:[],d:{},fn:{},fl:{},pv:{},err:{},ok:false,done:null});render();wz.showModal()}
+$$('.go').forEach(b=>b.onclick=open);$('#wx').onclick=()=>wz.close();
+wz.addEventListener('click',e=>{const a=e.target.closest('[data-a]')?.dataset.a;if(a=='next')next();if(a=='back'){S.step--;S.err={};render()}if(a=='sub')sub();if(a=='close')wz.close();
+if(e.target.id=='cp'){navigator.clipboard.writeText(S.done.id).then(()=>e.target.textContent='Copied ✓').catch(()=>e.target.textContent='Select the ID and copy it')}});
+wz.addEventListener('input',e=>{const t=e.target,c=t.dataset.c,k=t.dataset.k;if(t.type=='file'||!c)return;(c=='info'?S.info:(S.d[c]||(S.d[c]={})))[k]=t.value});
+wz.addEventListener('change',e=>{const t=e.target;if(t.id=='okc'){S.ok=t.checked;return}
+if(t.dataset.sel!==undefined){S.sel=C.filter(c=>$(`[value="${c.id}"]`,wz)?.checked).map(c=>c.id);return}
+if(t.type=='file'){const key=t.dataset.c+'.'+t.dataset.k,fs=[...t.files];(S.fl||(S.fl={}))[key]=fs;S.fn[key]=fs.map(f=>f.name).join(', ');S.pv[key]=fs[0]?.type.startsWith('image/')?URL.createObjectURL(fs[0]):'';$('#fn-'+t.id).textContent=fs.length?'✓ '+S.fn[key]:'Drop files here or tap to choose';return}
+if(t.dataset.c)(t.dataset.c=='info'?S.info:(S.d[t.dataset.c]||(S.d[t.dataset.c]={})))[t.dataset.k]=t.value});
+
+/* ---------- Supabase connection ---------- */
+const SBC=window.supabase?window.supabase.createClient(CFG.url,CFG.key):null;
+const fmtD=v=>{if(!v)return null;const d=new Date(v);return isNaN(d)?String(v):d.toLocaleString('en-GB',{dateStyle:'long',timeStyle:'short'})};
+SBC&&SBC.from('site_settings').select('key,value').then(({data})=>{if(!data)return;const m=Object.fromEntries(data.map(r=>[r.key,r.value]));
+ $$('.cfg-dl').forEach(e=>e.textContent=fmtD(m.deadline)||CFG.deadline);$$('.cfg-cd').forEach(e=>e.textContent=fmtD(m.ceremony_date)||CFG.ceremony)});
+if(CFG.logo)$$('.lg').forEach(e=>{e.outerHTML=`<img class="lg" src="${esc(CFG.logo)}" alt="DCPC logo" style="border:0;object-fit:cover">`});
+[['Instagram',CFG.insta],['Facebook',CFG.fb]].forEach(([n,u])=>{const a=$$('footer a').find(x=>x.textContent==n);if(a&&u){a.href=u;a.target='_blank';a.rel='noopener'}});
+async function sub(){
+if(!S.ok){S.err.ok='Please confirm to submit.';return render()}
+S.err={};const pb=$('.pb'),pi=$('#pi');$('#sb').disabled=true;pb.hidden=false;
+try{
+ if(!SBC)throw {m:'Could not connect. Please try again.'};
+ const fl=(c,k)=>S.fl?.[c+'.'+k]||[];let todo=0,n=0;
+ S.sel.forEach(c=>FM[c].forEach(f=>{if(f[2]=='file')todo+=fl(c,f[0]).length}));
+ const run=Date.now().toString(36)+Math.random().toString(36).slice(2,7),entries=[];
+ for(const c of S.sel){const d=S.d[c]||{},paths=[];
+  for(const f of FM[c])if(f[2]=='file')for(const file of fl(c,f[0])){
+   if(file.size>CFG.maxMB*1048576)throw {m:`"${file.name}" is larger than ${CFG.maxMB} MB. Use a smaller file or share a link.`};
+   const p=`incoming/${run}/${c}-${++n}-${file.name.replace(/[^\w.-]/g,'_')}`;
+   const {error}=await SBC.storage.from('submissions').upload(p,file,{contentType:file.type||undefined});
+   if(error)throw {m:'Upload failed. Please try again.'};
+   paths.push(p);pi.style.width=(n/todo*90)+'%'}
+  entries.push({category:c,subcategory:[d.div,d.sub].filter(Boolean).join(' / ')||null,title:d.title||null,description:d.desc||d.concept||d.text||null,
+   file_url:paths[0]||null,external_url:d.url||d.live||d.fig||null,tools_used:d.tools||d.tool||d.soft||null,details:{...d,files:paths}})}
+ const {data,error}=await SBC.rpc('submit_entry',{payload:{participant:{full_name:S.info.name,roll:S.info.roll,department:S.info.dept,section:S.info.sec,phone:S.info.phone,email:S.info.email,social_link:S.info.social||''},entries}});
+ if(error)throw {m:/closed|deadline|Add at least|not open/.test(error.message)?error.message:'Submission failed. Please try again.'};
+ S.done={id:data.participant_code,t:new Date().toLocaleString()};S.step=5;render()
+}catch(e){S.err.ok=e.m||'Submission failed. Please try again.';render()}}
+</script></body></html>
